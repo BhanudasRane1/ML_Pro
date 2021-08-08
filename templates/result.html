@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="brandname">
+                Final Result
+            </div>
+            <h2>Result prediction Using Linear Regression</h2>
+
+        </div>
+    </header>
+    <p style="color:blue;font-size:20;text-align: center;"><b>You will get marks:</b></p>
+    <div class="results">
+
+        <span> {{prediction}}</span>
+
+
+    </div>
+
+    <a href="..">
+        <input type="submit" value="Go Back..">
+    </a>
+
+</body>
+
+</html>
